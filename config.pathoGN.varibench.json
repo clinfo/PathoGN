@@ -1,0 +1,21 @@
+{
+    "save_result_test": "result<method>/test<id>.csv",
+    "save_info_cv":     "result<method>/cv_info<id>.json",
+    "load_model":      "model<method>_<id>/model.best.ckpt",
+    "save_model_path": "model<method>_<id>",
+    "save_model":      "model<method>_<id>/model.last.ckpt",
+    "dataset": "dataset/dataset<data>.jbl",
+    "model.py": "<model>",
+    "k-fold_num": 5,
+    "validation_data_rate": 0.2,
+    "epoch": 100,
+    "shuffle_data": true,
+    "with_feature": false,
+    "batch_size": 1,
+    "label_batch_size": 1000,
+    "save_interval": 100,
+    "embedding_dim": 128,
+    "learning_rate": 0.001,
+    "with_node_embedding": true,
+    "patience": 3
+}
