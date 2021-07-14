@@ -67,11 +67,11 @@ These scores are also available on MGeND (https://mgend.med.kyoto-u.ac.jp/).
 ## Reference
 ```
 @article{***,
-  title={Complex network prediction using deep learning},
-  author={Yoshihisa Tanaka and Ryosuke Kojima and Shoichi Ishida and Fumiyoshi Yamashita and Yasushi Okuno},
+  title={Network-based pathogenicity prediction for variants of uncertain significance},
+  author={Mayumi Kamada and Atsuko Takagi and Ryosuke Kojima and Yoshihisa Tanaka and Masahiko Nakatsui and Noriko Tanabe and Makoto Hirata and Teruhiko Yoshida and Yasushi Okuno},
   year={2021},
-  eprint={2104.03871},
-  archivePrefix={arXiv},
-  primaryClass={physics.soc-ph}
+  eprint={**},
+  archivePrefix={bioRXiv},
+  primaryClass={**}
 }
 ```
