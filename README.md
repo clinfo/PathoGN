@@ -1,8 +1,14 @@
 # PathoGN : Pathogenicity prediction model with a graph neural network
 
-## Example Usage: Validation with Varibench datasets
+## Example Usage
+### Run the demo with Varibench datasets
 
-### 0. Install kGCN(https://github.com/clinfo/kGCN) with conda
+> Varibench is a benchmark datasets for prediction of genomic variant effects.
+
+http://structure.bmc.lu.se/VariBench/
+Nair PS, Vihinen M. VariBench: A Benchmark Database for Variations. [_Hum Mutat_. 2013, 34(1):42-9](https://pubmed.ncbi.nlm.nih.gov/22903802/).
+
+### 0. Install kGCN (https://github.com/clinfo/kGCN) with conda
 ```
 $ conda create -n kgcn python=3.7
 $ conda activate kgcn
@@ -19,7 +25,6 @@ sh get_dataset.sh
 ### 2. Get and preprocess Reactome data
 ```
 sh make_reactome_data.sh
-
 ```
 
 ### 3. Preprocessing data
@@ -52,7 +57,9 @@ The correspondence between numbers and data sets is as follows：
 
 PathoGN predicted the pathogenicity for all variants that were not annotated as either pathogenic or benign in the 2020 ClinVar dataset.
 The model was trained using the labeled data (pathogenic=10,877, benign=7504) and then used to make predictions for the 12,520 unlabeled variants.
+
 The prediction result: `PredictionResults_ConflictVariant_ClinVar20200210.tsv`
+
 These scores are also available on MGeND (https://mgend.med.kyoto-u.ac.jp/).
 
 ## Reference
