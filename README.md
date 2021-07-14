@@ -5,8 +5,9 @@
 
 > Varibench is a benchmark datasets for prediction of genomic variant effects.
 
-http://structure.bmc.lu.se/VariBench/
 Nair PS, Vihinen M. VariBench: A Benchmark Database for Variations. [_Hum Mutat_. 2013, 34(1):42-9](https://pubmed.ncbi.nlm.nih.gov/22903802/).
+
+http://structure.bmc.lu.se/VariBench/
 
 ### 0. Install kGCN (https://github.com/clinfo/kGCN) with conda
 ```
