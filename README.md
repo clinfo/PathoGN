@@ -11,7 +11,7 @@ http://structure.bmc.lu.se/VariBench/
 
 ### 0. Install kGCN (https://github.com/clinfo/kGCN) with conda
 ```
-$ conda create -n kgcn python=3.7
+$ conda create -n kgcn python=3.7 conda=4.9.2
 $ conda activate kgcn
 $ conda install tensorflow=1.15 joblib numpy scipy scikit-learn matplotlib pandas
 $ pip install --upgrade git+https://github.com/clinfo/kGCN.git
