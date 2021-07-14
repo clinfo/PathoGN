@@ -46,6 +46,7 @@ sh run_gcn.sh
 
 ### Prediction result
 `score1-5.csv` will be created in `result`, and GCN-Score will be calculated for each of them.
+
 The correspondence between numbers and data sets is as follows：
 1. exovar_filtered_tool_scores
 2. humvar_filtered_tool_scores
