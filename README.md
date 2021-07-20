@@ -5,12 +5,13 @@
 
 > Varibench is a benchmark datasets for prediction of genomic variant effects.
 
-http://structure.bmc.lu.se/VariBench/
 Nair PS, Vihinen M. VariBench: A Benchmark Database for Variations. [_Hum Mutat_. 2013, 34(1):42-9](https://pubmed.ncbi.nlm.nih.gov/22903802/).
+
+http://structure.bmc.lu.se/VariBench/
 
 ### 0. Install kGCN (https://github.com/clinfo/kGCN) with conda
 ```
-$ conda create -n kgcn python=3.7
+$ conda create -n kgcn python=3.7 conda=4.9.2
 $ conda activate kgcn
 $ conda install tensorflow=1.15 joblib numpy scipy scikit-learn matplotlib pandas
 $ pip install --upgrade git+https://github.com/clinfo/kGCN.git
@@ -45,6 +46,7 @@ sh run_gcn.sh
 
 ### Prediction result
 `score1-5.csv` will be created in `result`, and GCN-Score will be calculated for each of them.
+
 The correspondence between numbers and data sets is as follows：
 1. exovar_filtered_tool_scores
 2. humvar_filtered_tool_scores
@@ -65,11 +67,11 @@ These scores are also available on MGeND (https://mgend.med.kyoto-u.ac.jp/).
 ## Reference
 ```
 @article{***,
-  title={Complex network prediction using deep learning},
-  author={Yoshihisa Tanaka and Ryosuke Kojima and Shoichi Ishida and Fumiyoshi Yamashita and Yasushi Okuno},
+  title={Network-based pathogenicity prediction for variants of uncertain significance},
+  author={Mayumi Kamada and Atsuko Takagi and Ryosuke Kojima and Yoshihisa Tanaka and Masahiko Nakatsui and Noriko Tanabe and Makoto Hirata and Teruhiko Yoshida and Yasushi Okuno},
   year={2021},
-  eprint={2104.03871},
-  archivePrefix={arXiv},
-  primaryClass={physics.soc-ph}
+  eprint={**},
+  archivePrefix={bioRXiv},
+  primaryClass={**}
 }
 ```
