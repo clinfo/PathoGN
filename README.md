@@ -66,12 +66,12 @@ These scores are also available on MGeND (https://mgend.med.kyoto-u.ac.jp/).
 
 ## Reference
 ```
-@article{***,
-  title={Network-based pathogenicity prediction for variants of uncertain significance},
-  author={Mayumi Kamada and Atsuko Takagi and Ryosuke Kojima and Yoshihisa Tanaka and Masahiko Nakatsui and Noriko Tanabe and Makoto Hirata and Teruhiko Yoshida and Yasushi Okuno},
-  year={2021},
-  eprint={**},
-  archivePrefix={bioRXiv},
-  primaryClass={**}
+@article {PathoGN,
+        author = {Kamada, Mayumi and Takagi, Atsuko and Kojima, Ryosuke and Tanaka, Yoshihisa and Nakatsui, Masahiko and Tanabe, Noriko and Hirata, Makoto and Yoshida, Teruhiko and Okuno, Yasushi},
+        title = {Network-based pathogenicity prediction for variants of uncertain significance},
+        year = {2021},
+        doi = {10.1101/2021.07.15.452566},
+        eprint = {https://www.biorxiv.org/content/early/2021/07/16/2021.07.15.452566.full.pdf},
+        journal = {bioRxiv}
 }
 ```
