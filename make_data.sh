@@ -3,6 +3,8 @@ cd `dirname $0`
 mkdir -p dataset
 mkdir -p config
 
+mv 03data_graph/reactome.graph.tsv 03data_graph/reactome.graph.old
+
 python script/make_config.py
 
 #
