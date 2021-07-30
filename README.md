@@ -23,15 +23,16 @@ $ pip install --upgrade git+https://github.com/clinfo/kGCN.git
 sh get_dataset.sh
 ```
 
-### 2. Get and preprocess Reactome data
-```
-sh make_reactome_data.sh
-```
-
-### 3. Preprocessing data
+### 2. Preprocessing data
 
 ```
 sh build_dataset.sh
+```
+
+### 3. Get and preprocess Reactome data
+```
+sh make_reactome_data.sh
+python script/preprocess_reactome.py 
 ```
 
 ### 4. make input data for GCN
