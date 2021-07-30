@@ -1,4 +1,4 @@
-fp=open("reactome_db.graph.tsv","w")
+fp=open("03data_graph/reactome_db.graph.tsv","w")
 for line in open("03data_graph/reactome.graph.tsv"):
     arr=line.strip().split("\t")
     if len(arr)==3:

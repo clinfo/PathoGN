@@ -20,7 +20,7 @@ head_arr=head.strip().split("\t")
 head_mapping={k:i for i,k in enumerate(head_arr)}
 
 #["# Interactor 1 uniprot id","Interactor 1 Ensembl gene id","Interactor 1 Entrez Gene id","Interactor 2 uniprot id","Interactor 2 Ensembl gene id","Interactor 2 Entrez Gene id","Interaction type","Interaction context","Pubmed references"]
-outfilename="data/reactome.graph.tsv"
+outfilename="03_data/reactome.graph.tsv"
 outfp=open(outfilename,"w")
 count=0
 for line in fp:
